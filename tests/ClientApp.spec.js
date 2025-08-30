@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test');
 
 test('Client App Login Test', async ({ page }) => {
     // Navigate to the login page
-    await page.goto('https://rahulshettyacademy.com/client');
+    await page.goto('https://www.google.com/');
 
     // // Fill in the login form
     // await page.fill('#userName', 'anshika@gmail.com');
